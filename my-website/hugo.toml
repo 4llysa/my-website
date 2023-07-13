@@ -1,4 +1,4 @@
-baseURL = "https://4llysa.github.io/"
+baseURL = "https://www.allysa.org/"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -13,8 +13,8 @@ languageName = "English"
 
 # Author config
 [author]
-  name = "xxxx"
-  email = ""
+  name = "Allysa Tan"
+  email = "allysaxtan@gmail.com"
   link = ""
 
 # Menu config
