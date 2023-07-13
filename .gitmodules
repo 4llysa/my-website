@@ -1,0 +1,4 @@
+[submodule "my-website/public"]
+	path = my-website/public
+	url = git@github.com:4llysa/allysa.github.io.git
+	branch = main
