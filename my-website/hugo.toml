@@ -4,7 +4,7 @@ baseURL = "https://www.allysa.org/"
 theme = "LoveIt"
 
 # website title
-title = "Allysa Tan Li Ying"
+title = "Allysa Tan"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "en"
@@ -15,13 +15,13 @@ sectionPagesMenu = "main"
 # Author config
 [author]
   name = "Allysa Tan"
-  email = "allysaxtan@gmail.com"
+  email = "allysa@u.nus.edu"
   link = "about"
 
 # Menu config
 [menu]
   [[menu.main]]
-    weight = 1
+    weight = 2
     identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
@@ -32,7 +32,7 @@ sectionPagesMenu = "main"
     # title will be shown when you hover on this menu link
     title = ""
   [[menu.main]]
-    weight = 2
+    weight = 1
     identifier = "about"
     pre = ""
     post = ""
@@ -54,4 +54,22 @@ sectionPagesMenu = "main"
   [markup.highlight]
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
+
+[params]
+    since = 2023
+    author = "Allysa Tan"                           # Author's name
+    avatar = "/images/blogger.png"           # Author's avatar
+    subtitle = "我会更好，因为我没有停止"         # Subtitle
+    cdn_url = ""           # Base CDN URL
+    home_mode = "" # post or other
+
+    google_verification = ""
+
+    description = "" # site description
+    keywords = "" # site keywords
+
+    beian = ""
+    baiduAnalytics = ""
+
+    license= '本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可'
 
